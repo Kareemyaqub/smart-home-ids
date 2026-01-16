@@ -1,5 +1,7 @@
-# Required python labs
 
+## Required Python labs
+
+```text
 pandas
 numpy
 scikit-learn
