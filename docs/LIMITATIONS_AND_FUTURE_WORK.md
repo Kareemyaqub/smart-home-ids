@@ -1,7 +1,7 @@
 # Limitations and Future Work
 
 ## Limitations
-- Evaluation limited to a single dataset (IoT-23)
+- Evaluation limited to a single dataset (SHIDD)
 - Offline training rather than live traffic capture
 - Binary classification only
 
