@@ -14,6 +14,7 @@ from sklearn.metrics import confusion_matrix
 sns.heatmap(confusion_matrix(y_test, y_pred), annot=True)
 plt.show()
 ```
+The confusion matrix images are available in assets/confusion_matrix.png.
 
 ## Interpretation
 The results indicate that machine learning models can reliably detect malicious IoT traffic in smart home environments.
