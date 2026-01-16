@@ -393,3 +393,11 @@ for model_name in results.keys():
     y_predict = np.argmax(model.predict(X_test), axis=1)
     generate_confussion_matrix(y_test, y_predict, model_name, class_names)
     print(classification_report(class_names[y_test], class_names[y_predict]))
+
+
+```
+Results
+
+The Decision Tree and K-Nearest Neighbour models achieved the highest overall accuracy and F1-score.
+
+Full evaluation results are documented in docs/RESULTS.md.
