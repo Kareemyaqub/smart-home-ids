@@ -2,7 +2,7 @@
 
 # Results
 
-Performance Metrics
+Performance Metrics:
 Models were evaluated using accuracy, precision, recall, and F1-score.
 ```python
 from sklearn.metrics import classification_report
