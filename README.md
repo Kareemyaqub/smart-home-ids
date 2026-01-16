@@ -40,3 +40,21 @@ python src/train.py
 
 # Run predictions
 python src/predict.py data/sample_input.csv
+
+Results Summary
+
+The trained models were evaluated using accuracy, precision, recall, F1-score, and confusion matrices.
+Decision Tree and K-Nearest Neighbour classifiers achieved the strongest performance.
+
+Detailed results are available in docs/RESULTS.md.
+
+Repository Structure
+ • notebooks/ – Jupyter notebook implementation
+ • src/ – Python scripts for preprocessing, training, and prediction
+ • docs/ – Methodology and results documentation
+ • assets/ – Figures and visual outputs
+ • data/ – Dataset instructions (no raw data uploaded)
+
+Intended Audience
+
+This repository is designed for students, researchers, and beginners interested in IoT security, intrusion detection systems, and applied machine learning.
