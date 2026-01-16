@@ -4,7 +4,8 @@
 ```markdown
 ## Performance Metrics
 Models were evaluated using accuracy, precision, recall, and F1-score.
-
+```
+```python
 from sklearn.metrics import classification_report
 print(classification_report(y_test, y_pred))
 ```
