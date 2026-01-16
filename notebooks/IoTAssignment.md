@@ -5,8 +5,9 @@ This notebook includes:
 - Model training
 - Model evaluation
 
-## Data Loading
+## Collab Code cells
 ```python
+## Data loading
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
