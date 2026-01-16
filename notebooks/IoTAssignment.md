@@ -5,7 +5,7 @@ This notebook includes:
 - Model training
 - Model evaluation
 
-## Collab Code cells
+## Code Lines
 ```python
 ## Data loading
 import pandas as pd
