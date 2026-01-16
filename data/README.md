@@ -8,7 +8,7 @@
 ```markdown
 ## SHIDD Dataset
 
-The SHIDD dataset was created by Stratosphere IPS and contains real IoT malware and benign network traffic captures.
+The SHIDD dataset was created by Jacob (2023) and contains real IoT malware and benign network traffic captures.
 
 ### Download
 (https://www.kaggle.com/datasets/bobaaayoung/dataset-invade)
@@ -25,3 +25,11 @@ The raw dataset is not included in this repository due to:
 - Dataset licensing terms
 
 Users must download and place the processed CSV file in this folder before running the code.
+```
+
+### Usage in Notebook
+The following code cell is used to load the dataset:
+
+```python
+import pandas as pd
+data = pd.read_csv("data/iot23_flows.csv")
